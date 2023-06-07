@@ -137,15 +137,20 @@ const quotes = [
 		if (userInputChar.toLowerCase() === char.toLowerCase()) {
 		  if (errorFound) {
 			span.style.color = "red";
+			
+
 		  } else {
 			span.style.color = "blue";
+			resultMessage.innerHTML = "";
 		  }
 		} else {
 		  span.style.color = "red";
 		  errorFound = true;
+		  resultMessage.innerHTML = "Incorreto Digite novamente";
 		}
 	  } else {
 		span.style.color = "black";
+		
 	  }
   
 	  quoteDisplay.appendChild(span);

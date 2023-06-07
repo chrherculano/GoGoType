@@ -1,5 +1,5 @@
 body {
-    background-image: url("./imagens/hardcore.gif"); /* Update the image path */
+    background-image: url("./imagens/hardcore.gif");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -9,9 +9,9 @@ body {
     margin: 0;
     padding: 0;
 }
-#hardcore{
-	color:white;
 
+#hardcore {
+    color: white;
 }
 
 header {
@@ -32,9 +32,9 @@ h1 {
     margin-top: 20px;
     margin-left: 10px;
     color: white !important;
-    font-size: 24px; /* Adjust the font size as needed */
-    font-weight: bold; /* Add font weight if desired */
-    text-decoration: none; /* Remove text decoration */
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 h1 a {
@@ -89,7 +89,7 @@ textarea {
 }
 
 #container {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 #countdownContainer {
@@ -110,38 +110,41 @@ textarea {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 20vh;
+    transform: translateY(-50%);
 }
-    
+
 p {
     font-family: monospace;
-    margin: 10px;
+    margin: 10px 10px;
     font-size: 35px;
     color: black;
 }
+
 @media (max-width: 600px) {
     textarea {
       width: 100%;
       /* adjust other styles as needed */
     }
-  }
-  
-  textarea {
-	margin-top: 20px;
-	width: 400px;
-	height: 100px;
-	resize: none;
-	padding: 10px;
-	border-radius: 10px;
-	border: none;
-	background-color: rgba(255, 255, 255, 0.7);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	font-family: inherit;
-	font-size: inherit;
-	color: inherit;
-	text-align: center;
-	outline: none;
 }
+
+textarea {
+    margin-top: 20px;
+    width: 400px;
+    height: 100px;
+    resize: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-align: center;
+    outline: none;
+}
+
 span {
     font-weight: bold;
 }
@@ -153,4 +156,5 @@ html {
 *,
 *:after,
 *:before {
-    box-sizing: inherit;}
+    box-sizing: inherit;
+}
