@@ -201,7 +201,7 @@ const quotes = [
   // Pop-up for the user to choose the number of quotes
   window.addEventListener("load", () => {
 	setTimeout(() => {
-	  const numberOfQuotes = window.prompt("Quantas frases você quer desafiar??", "5");
+	  const numberOfQuotes = window.prompt("Quantas frases você quer desafiar?  1 - 20", "5");
 	  const parsedNumberOfQuotes = parseInt(numberOfQuotes, 10);
   
 	  if (!isNaN(parsedNumberOfQuotes) && parsedNumberOfQuotes > 0 && parsedNumberOfQuotes <= quotes.length) {
