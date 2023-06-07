@@ -1,0 +1,191 @@
+body {
+	background-image: url("https://wallpaperaccess.com/full/5927911.gif");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	background-color: rgba(49, 46, 46, 0.7);
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;	
+}
+
+h1 {
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	color:white  !important;
+
+}
+
+nav {
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+	margin-right: 10px;
+	font-size:20px;
+	
+}
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: blue;
+}
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li a {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+h2, textarea {
+	font-family:monospace;
+	font-size: 24px;
+	color: black;
+	text-align: center;
+	
+}
+
+html {
+    background-color: #351b30;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%
+}
+.container {
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px;
+	text-align: center;
+  }
+  
+
+p {
+	font-family:monospace;
+	margin: 50px 0;
+    font-size:35px;
+    color: black;
+	
+}
+
+textarea {
+	margin-top: 20px;
+	width: 400px;
+	height: 100px;
+	resize: none;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	text-align: center;
+	outline: none;
+}
+
+span {
+	font-weight: bold;
+}
+
+html {
+    box-sizing: border-box
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit
+}
+.button {
+	position: fixed; /* Position the button relative to the viewport */
+	left: 50%; /* Horizontally center the button */
+	transform: translateX(-50%); /* Adjust the horizontal position */
+	bottom: 20px; /* Adjust the distance from the bottom */
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	padding: 20px 48px;
+	border: 2px solid #4d2323;
+	border-radius: 10px;
+	background: #c70000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c70000), to(#360505));
+	background: -moz-linear-gradient(top, #c70000, #360505);
+	background: linear-gradient(to bottom, #c70000, #360505);
+	-webkit-box-shadow: #410606 0px 0px 40px 0px;
+	-moz-box-shadow: #410606 0px 0px 40px 0px;
+	box-shadow: #410606 0px 0px 40px 0px;
+	text-shadow: #2b0909 4px 2px 1px;
+	font: italic normal bold 28px impact;
+	color: #c3c7de;
+	text-decoration: none;
+	text-transform: uppercase;
+  }
+  
+.button:hover {
+    border: 2px solid #c15858;
+    background: #ef0000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ef0000), to(#410606));
+    background: -moz-linear-gradient(top, #ef0000, #410606);
+    background: linear-gradient(to bottom, #ef0000, #410606);
+    color: #c3c7de;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.button:active {
+    background: #770000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#770000), to(#360505));
+    background: -moz-linear-gradient(top, #770000, #360505);
+    background: linear-gradient(to bottom, #770000, #360505);
+    text-transform: uppercase
+}
+.button:focus {
+    text-transform: uppercase
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABBElEQVRIic3UMUoDURDG8Z9hCZLawiKVlUcQSxH1EJ7C0s5SRKysPYGVR/AIEiwscgBL0ShBY5EVlk3y9s26gh9Ms+/t/xtm3gx/rLWG83X0ArwvvOdeLjDCayDOAsk4wiwQIwwiBrcB+BQ7Efhm+VOuwUUEDqcBeLg0BZ4y4VPslwbV6KcMDgLZzyy+pEdspQwiza3HA4Yp+BCTlvB7bKTgxJpbjTsZje5h3AJ+o6GpP9qzfPw/EvBzgV1VWHxuA1wvAX/iJBfcZFov2wTHXcBhtwZ/MV+CnemyAn8WXGhNqpZnjO0u4cyzzZrOtrqSOZ0pFSu+98qzQ7z9xmCV+gnz/6Vv5m656jaSa+wAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
