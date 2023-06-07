@@ -118,7 +118,13 @@ p {
     font-size: 35px;
     color: black;
 }
-
+@media (max-width: 600px) {
+    textarea {
+      width: 100%;
+      /* adjust other styles as needed */
+    }
+  }
+  
 textarea {
     margin-top: 20px;
     width: 400px;
